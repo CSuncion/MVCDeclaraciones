@@ -1,0 +1,12 @@
+D:\Perú Ticcs\Angelica\MVCDeclaraciones\DeclaracionesUtil\bin\Debug\DeclaracionesUtil.dll
+D:\Perú Ticcs\Angelica\MVCDeclaraciones\DeclaracionesUtil\bin\Debug\DeclaracionesUtil.pdb
+D:\Perú Ticcs\Angelica\MVCDeclaraciones\DeclaracionesUtil\obj\Debug\DeclaracionesUtil.csproj.AssemblyReference.cache
+D:\Perú Ticcs\Angelica\MVCDeclaraciones\DeclaracionesUtil\obj\Debug\DeclaracionesUtil.csproj.CoreCompileInputs.cache
+D:\Perú Ticcs\Angelica\MVCDeclaraciones\DeclaracionesUtil\obj\Debug\DeclaracionesUtil.dll
+D:\Perú Ticcs\Angelica\MVCDeclaraciones\DeclaracionesUtil\obj\Debug\DeclaracionesUtil.pdb
+D:\Perú Ticcs\Esposa\MVCDeclaraciones\DeclaracionesUtil\bin\Debug\DeclaracionesUtil.dll
+D:\Perú Ticcs\Esposa\MVCDeclaraciones\DeclaracionesUtil\bin\Debug\DeclaracionesUtil.pdb
+D:\Perú Ticcs\Esposa\MVCDeclaraciones\DeclaracionesUtil\obj\Debug\DeclaracionesUtil.csproj.AssemblyReference.cache
+D:\Perú Ticcs\Esposa\MVCDeclaraciones\DeclaracionesUtil\obj\Debug\DeclaracionesUtil.csproj.CoreCompileInputs.cache
+D:\Perú Ticcs\Esposa\MVCDeclaraciones\DeclaracionesUtil\obj\Debug\DeclaracionesUtil.dll
+D:\Perú Ticcs\Esposa\MVCDeclaraciones\DeclaracionesUtil\obj\Debug\DeclaracionesUtil.pdb

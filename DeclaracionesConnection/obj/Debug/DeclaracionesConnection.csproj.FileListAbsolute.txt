@@ -1,0 +1,12 @@
+D:\Perú Ticcs\Angelica\MVCDeclaraciones\DeclaracionesConnection\bin\Debug\DeclaracionesConnection.dll
+D:\Perú Ticcs\Angelica\MVCDeclaraciones\DeclaracionesConnection\bin\Debug\DeclaracionesConnection.pdb
+D:\Perú Ticcs\Angelica\MVCDeclaraciones\DeclaracionesConnection\obj\Debug\DeclaracionesConnection.csproj.AssemblyReference.cache
+D:\Perú Ticcs\Angelica\MVCDeclaraciones\DeclaracionesConnection\obj\Debug\DeclaracionesConnection.csproj.CoreCompileInputs.cache
+D:\Perú Ticcs\Angelica\MVCDeclaraciones\DeclaracionesConnection\obj\Debug\DeclaracionesConnection.dll
+D:\Perú Ticcs\Angelica\MVCDeclaraciones\DeclaracionesConnection\obj\Debug\DeclaracionesConnection.pdb
+D:\Perú Ticcs\Esposa\MVCDeclaraciones\DeclaracionesConnection\bin\Debug\DeclaracionesConnection.dll
+D:\Perú Ticcs\Esposa\MVCDeclaraciones\DeclaracionesConnection\bin\Debug\DeclaracionesConnection.pdb
+D:\Perú Ticcs\Esposa\MVCDeclaraciones\DeclaracionesConnection\obj\Debug\DeclaracionesConnection.csproj.AssemblyReference.cache
+D:\Perú Ticcs\Esposa\MVCDeclaraciones\DeclaracionesConnection\obj\Debug\DeclaracionesConnection.csproj.CoreCompileInputs.cache
+D:\Perú Ticcs\Esposa\MVCDeclaraciones\DeclaracionesConnection\obj\Debug\DeclaracionesConnection.dll
+D:\Perú Ticcs\Esposa\MVCDeclaraciones\DeclaracionesConnection\obj\Debug\DeclaracionesConnection.pdb

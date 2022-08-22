@@ -1,0 +1,13 @@
+D:\Perú Ticcs\Angelica\MVCDeclaraciones\DeclaracionesModel\bin\Debug\DeclaracionesModel.dll
+D:\Perú Ticcs\Angelica\MVCDeclaraciones\DeclaracionesModel\bin\Debug\DeclaracionesModel.pdb
+D:\Perú Ticcs\Angelica\MVCDeclaraciones\DeclaracionesModel\obj\Debug\DeclaracionesModel.csproj.AssemblyReference.cache
+D:\Perú Ticcs\Angelica\MVCDeclaraciones\DeclaracionesModel\obj\Debug\DeclaracionesModel.csproj.CoreCompileInputs.cache
+D:\Perú Ticcs\Angelica\MVCDeclaraciones\DeclaracionesModel\obj\Debug\DeclaracionesModel.dll
+D:\Perú Ticcs\Angelica\MVCDeclaraciones\DeclaracionesModel\obj\Debug\DeclaracionesModel.pdb
+D:\Perú Ticcs\Esposa\MVCDeclaraciones\DeclaracionesModel\bin\Debug\DeclaracionesModel.dll.config
+D:\Perú Ticcs\Esposa\MVCDeclaraciones\DeclaracionesModel\bin\Debug\DeclaracionesModel.dll
+D:\Perú Ticcs\Esposa\MVCDeclaraciones\DeclaracionesModel\bin\Debug\DeclaracionesModel.pdb
+D:\Perú Ticcs\Esposa\MVCDeclaraciones\DeclaracionesModel\obj\Debug\DeclaracionesModel.csproj.AssemblyReference.cache
+D:\Perú Ticcs\Esposa\MVCDeclaraciones\DeclaracionesModel\obj\Debug\DeclaracionesModel.csproj.CoreCompileInputs.cache
+D:\Perú Ticcs\Esposa\MVCDeclaraciones\DeclaracionesModel\obj\Debug\DeclaracionesModel.dll
+D:\Perú Ticcs\Esposa\MVCDeclaraciones\DeclaracionesModel\obj\Debug\DeclaracionesModel.pdb

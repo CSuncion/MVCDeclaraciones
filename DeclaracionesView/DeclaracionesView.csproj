@@ -1,0 +1,317 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{D78FF138-55C3-4282-8A34-390F8C6BA5E1}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>DeclaracionesView</RootNamespace>
+    <AssemblyName>DeclaracionesView</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>contador.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Comun">
+      <HintPath>..\..\..\Victor Noriega\Creditos\Sistema Creditos\MVCCredits\CreditsView\bin\Debug\Comun.dll</HintPath>
+    </Reference>
+    <Reference Include="Heredados">
+      <HintPath>..\..\..\Gabriel\Almacen\Presentacion\bin\Debug\Heredados.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="WinControles">
+      <HintPath>..\..\..\Victor Noriega\Creditos\Sistema Creditos\MVCCredits\CreditsView\bin\Debug\WinControles.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Declaraciones\frmDeclaracionesCompras.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Declaraciones\frmDeclaracionesCompras.Designer.cs">
+      <DependentUpon>frmDeclaracionesCompras.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Declaraciones\frmDeclaracionesVentas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Declaraciones\frmDeclaracionesVentas.Designer.cs">
+      <DependentUpon>frmDeclaracionesVentas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Declaraciones\frmEditDeclaracionesCompras.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Declaraciones\frmEditDeclaracionesCompras.Designer.cs">
+      <DependentUpon>frmEditDeclaracionesCompras.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Declaraciones\frmEditDeclaracionesVentas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Declaraciones\frmEditDeclaracionesVentas.Designer.cs">
+      <DependentUpon>frmEditDeclaracionesVentas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Declaraciones\frmMenuDeclaraciones.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Declaraciones\frmMenuDeclaraciones.Designer.cs">
+      <DependentUpon>frmMenuDeclaraciones.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FuncionesGenericas\Generico.cs" />
+    <Compile Include="Generales\frmAuxiliar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Generales\frmAuxiliar.Designer.cs">
+      <DependentUpon>frmAuxiliar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Generales\frmEditAuxiliar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Generales\frmEditAuxiliar.Designer.cs">
+      <DependentUpon>frmEditAuxiliar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Generales\frmEditEmpresa.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Generales\frmEditEmpresa.Designer.cs">
+      <DependentUpon>frmEditEmpresa.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Generales\frmEditPeriodo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Generales\frmEditPeriodo.Designer.cs">
+      <DependentUpon>frmEditPeriodo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Generales\frmEditTipoCambio.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Generales\frmEditTipoCambio.Designer.cs">
+      <DependentUpon>frmEditTipoCambio.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Generales\frmEmpresas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Generales\frmEmpresas.Designer.cs">
+      <DependentUpon>frmEmpresas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Generales\frmSeleccionarPeriodo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Generales\frmSeleccionarPeriodo.Designer.cs">
+      <DependentUpon>frmSeleccionarPeriodo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Generales\frmTipoCambio.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Generales\frmTipoCambio.Designer.cs">
+      <DependentUpon>frmTipoCambio.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Listas\frmLisAux.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Listas\frmLisAux.Designer.cs">
+      <DependentUpon>frmLisAux.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Listas\frmLisItemG.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Listas\frmLisItemG.Designer.cs">
+      <DependentUpon>frmLisItemG.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Listas\frmLisPerEmpExt.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Listas\frmLisPerEmpExt.Designer.cs">
+      <DependentUpon>frmLisPerEmpExt.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Listas\frmLisUsrExt.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Listas\frmLisUsrExt.Designer.cs">
+      <DependentUpon>frmLisUsrExt.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Login\frmLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login\frmLogin.Designer.cs">
+      <DependentUpon>frmLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Generales\frmMenuGenerales.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Generales\frmMenuGenerales.Designer.cs">
+      <DependentUpon>frmMenuGenerales.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Generales\frmPeriodos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Generales\frmPeriodos.Designer.cs">
+      <DependentUpon>frmPeriodos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MdiPrincipal\frmPrincipal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MdiPrincipal\frmPrincipal.Designer.cs">
+      <DependentUpon>frmPrincipal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Declaraciones\frmDeclaracionesCompras.resx">
+      <DependentUpon>frmDeclaracionesCompras.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Declaraciones\frmDeclaracionesVentas.resx">
+      <DependentUpon>frmDeclaracionesVentas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Declaraciones\frmEditDeclaracionesCompras.resx">
+      <DependentUpon>frmEditDeclaracionesCompras.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Declaraciones\frmEditDeclaracionesVentas.resx">
+      <DependentUpon>frmEditDeclaracionesVentas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Declaraciones\frmMenuDeclaraciones.resx">
+      <DependentUpon>frmMenuDeclaraciones.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Generales\frmAuxiliar.resx">
+      <DependentUpon>frmAuxiliar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Generales\frmEditAuxiliar.resx">
+      <DependentUpon>frmEditAuxiliar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Generales\frmEditEmpresa.resx">
+      <DependentUpon>frmEditEmpresa.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Generales\frmEditPeriodo.resx">
+      <DependentUpon>frmEditPeriodo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Generales\frmEditTipoCambio.resx">
+      <DependentUpon>frmEditTipoCambio.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Generales\frmEmpresas.resx">
+      <DependentUpon>frmEmpresas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Generales\frmSeleccionarPeriodo.resx">
+      <DependentUpon>frmSeleccionarPeriodo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Generales\frmTipoCambio.resx">
+      <DependentUpon>frmTipoCambio.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Listas\frmLisAux.resx">
+      <DependentUpon>frmLisAux.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Listas\frmLisItemG.resx">
+      <DependentUpon>frmLisItemG.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Listas\frmLisPerEmpExt.resx">
+      <DependentUpon>frmLisPerEmpExt.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Listas\frmLisUsrExt.resx">
+      <DependentUpon>frmLisUsrExt.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Login\frmLogin.resx">
+      <DependentUpon>frmLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Generales\frmMenuGenerales.resx">
+      <DependentUpon>frmMenuGenerales.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Generales\frmPeriodos.resx">
+      <DependentUpon>frmPeriodos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MdiPrincipal\frmPrincipal.resx">
+      <DependentUpon>frmPrincipal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="contador.ico" />
+    <Content Include="images\16 %28Filter%29.ico" />
+    <Content Include="images\72b75f9c-72bc-405b-876b-2cef01ddbd90-large.png" />
+    <Content Include="images\72b75f9c-72bc-405b-876b-2cef01ddbd90-large1.png" />
+    <Content Include="images\door_out.ico" />
+    <Content Include="images\ICON CERRARF.png" />
+    <Content Include="images\Icono Maximizar.png" />
+    <Content Include="images\Icono Minimizar.png" />
+    <Content Include="images\Icono Restaurar.png" />
+    <Content Include="images\logo-1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\DeclaracionesController\DeclaracionesController.csproj">
+      <Project>{89DF53F7-238F-4A1F-8A96-4579E9D9F272}</Project>
+      <Name>DeclaracionesController</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DeclaracionesModel\DeclaracionesModel.csproj">
+      <Project>{0A0C52D8-210A-4B71-A89C-51F6854D1AC3}</Project>
+      <Name>DeclaracionesModel</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DeclaracionesUtil\DeclaracionesUtil.csproj">
+      <Project>{157BA73D-9220-4F47-83CE-E1A9682086D9}</Project>
+      <Name>DeclaracionesUtil</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Consultas\" />
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="PrinterAPI">
+      <Guid>{01FAE2BC-6C7B-409D-8199-DB40C979A23E}</Guid>
+      <VersionMajor>2</VersionMajor>
+      <VersionMinor>2</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
