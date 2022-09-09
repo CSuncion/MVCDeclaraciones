@@ -65,7 +65,7 @@
             // 
             this.tsmiDecCom.Image = ((System.Drawing.Image)(resources.GetObject("tsmiDecCom.Image")));
             this.tsmiDecCom.Name = "tsmiDecCom";
-            this.tsmiDecCom.Size = new System.Drawing.Size(180, 22);
+            this.tsmiDecCom.Size = new System.Drawing.Size(168, 22);
             this.tsmiDecCom.Text = "Registro Compras";
             this.tsmiDecCom.Click += new System.EventHandler(this.tsmiDecCom_Click);
             // 
@@ -73,7 +73,7 @@
             // 
             this.tsmiDecVen.Image = ((System.Drawing.Image)(resources.GetObject("tsmiDecVen.Image")));
             this.tsmiDecVen.Name = "tsmiDecVen";
-            this.tsmiDecVen.Size = new System.Drawing.Size(180, 22);
+            this.tsmiDecVen.Size = new System.Drawing.Size(168, 22);
             this.tsmiDecVen.Text = "Registro Ventas";
             this.tsmiDecVen.Click += new System.EventHandler(this.tsmiDecVen_Click);
             // 
@@ -84,6 +84,7 @@
             this.tsBtnSalir.Name = "tsBtnSalir";
             this.tsBtnSalir.Size = new System.Drawing.Size(49, 20);
             this.tsBtnSalir.Text = "Salir";
+            this.tsBtnSalir.Click += new System.EventHandler(this.tsBtnSalir_Click);
             // 
             // tbcSubContenedor
             // 

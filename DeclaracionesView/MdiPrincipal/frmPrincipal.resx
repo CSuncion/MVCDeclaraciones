@@ -150,7 +150,7 @@
   <data name="btnSalir.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6
-        JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAACXBIWXMAAPv3AAD79wFm57ptAAABqklE
+        JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAACXBIWXMAAPv2AAD79gG0oFiJAAABqklE
         QVRoQ+2aOUvEQBxH4wFq4YGVlYK1paBYy7YKdvpR/AJWFt5XbeFnsPFo7DxwtffCWlC00ffTGFz2SLKO
         zD84Dx4kYVnm7cxuNiFRTobxEN8NWMYSZqYFF/EJd3EN1z25jTd4jZnpwiM8wW4d8MwOaiYyo4DjWG37
         RjMRAnwSAnwTAnwTAnyTO6AV52O17ZvcAaIt1gJNBVgiNaATe742TdIwoA/1gj3s1QGD1A3QgJfwDZex
@@ -227,7 +227,7 @@
   <data name="btnGenerales.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
-        wAAADsABataJCQAAALtJREFUaEPtkl0KwDAIg3uzHW03348PARn6IHWujnwQGC2xC2YQQgh5i30xhTlu
+        vwAADr8BOAVTJAAAALtJREFUaEPtkl0KwDAIg3uzHW03348PARn6IHWujnwQGC2xC2YQQgh5i30xhTlu
         nQspzK8CWCutkP6HMFPmJBgAZmu9FUoLsILC/CqAtd4KpVXoKxjAM2+3rJXPSGY+eS2APIi7LMnMJwzg
         mdtXqAoG8My6Qnr1M9UqrZA8iDv5Bvo8Kj0HMIBnbl+hKhjAM7evkDyIO/kG+jwqPQcwgGduX6EqGABm
         a+UVSguwgsK0D2Ct9EsRQgjJZowLYHZ7uQb3LSUAAAAASUVORK5CYII=
@@ -374,7 +374,7 @@
   <data name="btnDeclaraciones.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6
-        JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAACXBIWXMAAhvsAAIb7AHkrjruAAAAB3RJ
+        JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAACXBIWXMAAhvrAAIb6wG26pyRAAAAB3RJ
         TUUH5AsCDRsYLlrKMQAABS9JREFUaEPt2WerZEUQxvFrzgnEiAEMmHPOcc05YcCcc84ZxYjhhQoqGEHF
         8IFUUMFPoS/0+cEpaA6zy+zePusVbsOf09PTZ7qquqo6zMJyWS7TlYPDO+Gj8OF/hLHfCvuH1SrrhE/D
         P0uEjwOZ5i7rh5+Cl/8Kv4dfJ+CX8PNK+C0YmwxkIdPcpVWA8EeEncLOnTkgrAjnhovDVeGGcGM4M1Bi
@@ -485,7 +485,7 @@
   <data name="pnlLogo.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAfQAAAB8CAYAAACfQkKLAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
-        vQAADr0BR/uQrQAAQzxJREFUeF7tnQnYLEdVhqMIBFllVYREECICJmBYghIScMGw5F7u9Z//hgRyZQkg
+        vAAADrwBlbxySQAAQzxJREFUeF7tnQnYLEdVhqMIBFllVYREECICJmBYghIScMGw5F7u9Z//hgRyZQkg
         gYggyiIJYhBQIRFQNiGAbCq4sKiIC6Cyb4JkgSSICrJEgYCgGMfvrTmn75n+u2dfei7nfZ7zTHd19TI9
         Pf1VnTpVdUiSJEmSJEmSJEmSJEmSJEmSJEmSJEmSJAcfn//8569x6aWXXifYd59//vnfN8pq+aMdaodN
         kiRJkmRRILKf+MQnjrvgggvOuPDCC8/U58/p86z4qe3HR7NdJ6a+fzy2L8t2yzj/LuU5jkKB7Z4kSZIk
@@ -829,6 +829,12 @@
   <metadata name="ssStatusBar.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>17, 17</value>
   </metadata>
+  <data name="tssStatusBar.Size" type="System.Drawing.Size, System.Drawing">
+    <value>16, 17</value>
+  </data>
+  <data name="tssStatusBar.Text" xml:space="preserve">
+    <value>...</value>
+  </data>
   <data name="ssStatusBar.Location" type="System.Drawing.Point, System.Drawing">
     <value>0, 588</value>
   </data>
@@ -852,12 +858,6 @@
   </data>
   <data name="&gt;&gt;ssStatusBar.ZOrder" xml:space="preserve">
     <value>3</value>
-  </data>
-  <data name="tssStatusBar.Size" type="System.Drawing.Size, System.Drawing">
-    <value>16, 17</value>
-  </data>
-  <data name="tssStatusBar.Text" xml:space="preserve">
-    <value>...</value>
   </data>
   <data name="tbcContainer.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
     <value>Fill</value>
@@ -888,78 +888,6 @@
   </data>
   <data name="&gt;&gt;tbcContainer.ZOrder" xml:space="preserve">
     <value>0</value>
-  </data>
-  <data name="&gt;&gt;btnRestaurar.Name" xml:space="preserve">
-    <value>btnRestaurar</value>
-  </data>
-  <data name="&gt;&gt;btnRestaurar.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;btnRestaurar.Parent" xml:space="preserve">
-    <value>pnlBarTit</value>
-  </data>
-  <data name="&gt;&gt;btnRestaurar.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;btnMinimizar.Name" xml:space="preserve">
-    <value>btnMinimizar</value>
-  </data>
-  <data name="&gt;&gt;btnMinimizar.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;btnMinimizar.Parent" xml:space="preserve">
-    <value>pnlBarTit</value>
-  </data>
-  <data name="&gt;&gt;btnMinimizar.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="&gt;&gt;btnMaximizar.Name" xml:space="preserve">
-    <value>btnMaximizar</value>
-  </data>
-  <data name="&gt;&gt;btnMaximizar.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;btnMaximizar.Parent" xml:space="preserve">
-    <value>pnlBarTit</value>
-  </data>
-  <data name="&gt;&gt;btnMaximizar.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="&gt;&gt;btnCerrar.Name" xml:space="preserve">
-    <value>btnCerrar</value>
-  </data>
-  <data name="&gt;&gt;btnCerrar.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;btnCerrar.Parent" xml:space="preserve">
-    <value>pnlBarTit</value>
-  </data>
-  <data name="&gt;&gt;btnCerrar.ZOrder" xml:space="preserve">
-    <value>3</value>
-  </data>
-  <data name="pnlBarTit.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Top</value>
-  </data>
-  <data name="pnlBarTit.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 0</value>
-  </data>
-  <data name="pnlBarTit.Size" type="System.Drawing.Size, System.Drawing">
-    <value>1123, 40</value>
-  </data>
-  <data name="pnlBarTit.TabIndex" type="System.Int32, mscorlib">
-    <value>7</value>
-  </data>
-  <data name="&gt;&gt;pnlBarTit.Name" xml:space="preserve">
-    <value>pnlBarTit</value>
-  </data>
-  <data name="&gt;&gt;pnlBarTit.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;pnlBarTit.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;pnlBarTit.ZOrder" xml:space="preserve">
-    <value>2</value>
   </data>
   <data name="btnRestaurar.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top, Right</value>
@@ -1139,6 +1067,30 @@
   </data>
   <data name="&gt;&gt;btnCerrar.ZOrder" xml:space="preserve">
     <value>3</value>
+  </data>
+  <data name="pnlBarTit.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="pnlBarTit.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="pnlBarTit.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1123, 40</value>
+  </data>
+  <data name="pnlBarTit.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;pnlBarTit.Name" xml:space="preserve">
+    <value>pnlBarTit</value>
+  </data>
+  <data name="&gt;&gt;pnlBarTit.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pnlBarTit.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;pnlBarTit.ZOrder" xml:space="preserve">
+    <value>2</value>
   </data>
   <metadata name="tmOcultarMenu.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>130, 17</value>

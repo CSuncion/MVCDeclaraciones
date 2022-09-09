@@ -71,6 +71,9 @@ namespace DeclaracionesView.Declaraciones
             wMen.CerrarVentanaHijo(this, wMen.btnGenerales, null);
         }
 
+        private void tsBtnSalir_Click(object sender, EventArgs e)
+        {
 
+        }
     }
 }

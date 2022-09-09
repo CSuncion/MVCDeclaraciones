@@ -18,10 +18,13 @@ namespace DeclaracionesView.MdiPrincipal
         public frmPrincipal()
         {
             InitializeComponent();
-            this.LoadTheme();
+            //this.LoadTheme();
         }
 
         #region Events
+        int lx, ly;
+        int sw, sh;
+        bool isSize = false;
         private void frmPrincipal_Load(object sender, EventArgs e)
         {
             this.NewWindowAccess();
@@ -41,11 +44,11 @@ namespace DeclaracionesView.MdiPrincipal
 
         private void btnMaximizar_Click(object sender, EventArgs e)
         {
-            this.WindowsState();
+            this.MaximizedWindow();
         }
         private void btnRestaurar_Click(object sender, EventArgs e)
         {
-            this.WindowsState();
+            this.RestoreWindow();
         }
         private void btnMinimizar_Click(object sender, EventArgs e)
         {
@@ -80,7 +83,11 @@ namespace DeclaracionesView.MdiPrincipal
         }
         private void pnlBarTit_DoubleClick(object sender, EventArgs e)
         {
-            this.WindowsState();
+            if (this.isSize)
+                this.RestoreWindow();
+            else
+                this.MaximizedWindow();
+
         }
         private void btnGenerales_Click(object sender, EventArgs e)
         {
@@ -94,20 +101,26 @@ namespace DeclaracionesView.MdiPrincipal
         #endregion
 
         #region Methods
-        private void WindowsState()
+        public void RestoreWindow()
         {
-            if (this.WindowState == FormWindowState.Maximized)
-            {
-                this.btnRestaurar.Visible = false;
-                this.btnMaximizar.Visible = true;
-                this.WindowState = FormWindowState.Normal;
-            }
-            else if (this.WindowState == FormWindowState.Normal)
-            {
-                this.btnMaximizar.Visible = false;
-                this.btnRestaurar.Visible = true;
-                this.WindowState = FormWindowState.Maximized;
-            }
+            this.isSize = false;
+            this.btnRestaurar.Visible = false;
+            this.btnMaximizar.Visible = true;
+            //this.WindowState = FormWindowState.Normal;
+            this.Size = new Size(sw, sh);
+            this.Location = new Point(lx, ly);
+        }
+        public void MaximizedWindow()
+        {
+            this.btnMaximizar.Visible = false;
+            this.btnRestaurar.Visible = true;
+            this.isSize = true;
+            lx = this.Location.X;
+            ly = this.Location.Y;
+            sw = this.Size.Width;
+            sh = this.Size.Height;
+            this.Size = Screen.PrimaryScreen.WorkingArea.Size;
+            this.Location = Screen.PrimaryScreen.WorkingArea.Location;
         }
         private void LoadTheme()
         {
@@ -188,7 +201,7 @@ namespace DeclaracionesView.MdiPrincipal
             this.FormatoVentanaHijoPrincipal(win, this.btnDeclaraciones, null, 0, 0);
             win.NewWindow();
         }
-        public void InstanciarGenerales ()
+        public void InstanciarGenerales()
         {
             frmMenuGenerales win = new frmMenuGenerales();
             this.FormatoVentanaHijoPrincipal(win, this.btnGenerales, null, 0, 0);
